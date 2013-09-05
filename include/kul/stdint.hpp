@@ -45,10 +45,8 @@ namespace kul {
 	using uint_least64_t = unsigned long long ;
 
 	using uintmax_t = unsigned long long ;
-	
-	using size_t = uintptr_t ;
-	using ptrdiff_t = intptr_t ;
-	
+
+
 #ifdef _KUL_64_BIT
 	using intptr_t = int64_t ;
 	using uintptr_t = uint64_t ;
@@ -56,6 +54,9 @@ namespace kul {
 	using intptr_t = int32_t ;
 	using uintptr_t = uint32_t ;
 #endif
+
+	using size_t = uintptr_t ;
+	using ptrdiff_t = intptr_t ;
 
 }
 

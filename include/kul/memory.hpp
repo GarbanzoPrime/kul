@@ -6,7 +6,7 @@
 #ifndef KUL_MEMORY_53cb7b2f_ab5b_48f0_88bf_0165498cbfc5
 #define KUL_MEMORY_53cb7b2f_ab5b_48f0_88bf_0165498cbfc5
 
-#include "./cstdint.hpp"
+#include "./stdint.hpp"
 
 namespace kul {
 	template< typename T >
