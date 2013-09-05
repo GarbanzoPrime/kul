@@ -6,7 +6,7 @@
 #ifndef KUL_ARRAY_26796fcf_1db6_43a3_827b_93f5957f76fc
 #define KUL_ARRAY_26796fcf_1db6_43a3_827b_93f5957f76fc
 
-#include "./cstddef.hpp"
+#include "./stddef.hpp"
 
 namespace kul {
 	template< typename T , size_t N >
@@ -83,4 +83,4 @@ namespace kul {
 	} ;
 }
 
-#undef
+#endif
